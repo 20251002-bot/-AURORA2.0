@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>極光音響 | 首頁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 導覽列 -->
+  <nav class="navbar">
+    <div class="logo">AURORA 極光</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">首頁</a></li>
+      <li><a href="products.html">產品介紹</a></li>
+      <li><a href="contact.html">聯絡我們</a></li>
+    </ul>
+  </nav>
+
+  <!-- 首頁主要內容：英雄區 + 輪播 + 特色 -->
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>極光音響<br><span>沉浸式科技美學</span></h1>
+        <p>搭載 360° 環繞音場與智慧降噪，讓每個音符都精準觸動心弦。</p>
+        <button id="offerBtn" class="btn-primary">✨ 領取限量優惠</button>
+      </div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <!-- 圖片輪播 -->
+    <section class="carousel-section">
+      <h2>極光系列 · 光影隨行</h2>
+      <div class="carousel">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="carousel-slide"><img src="https://picsum.photos/id/104/1200/500?grayscale" alt="極光音響情境1"></div>
+          <div class="carousel-slide"><img src="https://picsum.photos/id/26/1200/500?grayscale" alt="極光音響情境2"></div>
+          <div class="carousel-slide"><img src="https://picsum.photos/id/96/1200/500?grayscale" alt="極光音響情境3"></div>
+        </div>
+        <button class="carousel-btn prev" id="prevBtn">❮</button>
+        <button class="carousel-btn next" id="nextBtn">❯</button>
+      </div>
+    </section>
+
+    <!-- 特色亮點 -->
+    <section class="features">
+      <div class="feature-card">
+        <div class="feature-icon">🎧</div>
+        <h3>自適應降噪</h3>
+        <p>智慧偵測環境音，自動調整降噪深度。</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔋</div>
+        <h3>36 小時續航</h3>
+        <p>快充 10 分鐘，享受 5 小時不間斷音樂。</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌌</div>
+        <h3>極光幻彩燈效</h3>
+        <p>隨音樂律動變換光影，打造專屬氛圍。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 極光音響 AURORA AUDIO. 所有版權保留。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

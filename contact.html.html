@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>極光音響 | 聯絡我們</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 導覽列 -->
+  <nav class="navbar">
+    <div class="logo">AURORA 極光</div>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="products.html">產品介紹</a></li>
+      <li><a href="contact.html" class="active">聯絡我們</a></li>
+    </ul>
+  </nav>
+
+  <main class="contact-main">
+    <h1 class="page-title">聯絡我們</h1>
+    <p class="page-subtitle">有任何問題或合作提案，歡迎與我們聯繫。</p>
+
+    <div class="contact-container">
+      <!-- 聯絡表單 -->
+      <form id="contactForm" class="contact-form">
+        <label for="name">姓名</label>
+        <input type="text" id="name" name="name" placeholder="請輸入您的姓名" required>
+
+        <label for="email">電子郵件</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+
+        <label for="message">訊息</label>
+        <textarea id="message" name="message" rows="5" placeholder="請輸入您的需求或問題..." required></textarea>
+
+        <button type="submit" class="btn-primary">送出訊息</button>
+        <p id="formFeedback" class="form-feedback"></p>
+      </form>
+
+      <!-- 聯絡資訊 -->
+      <div class="contact-info">
+        <h3>極光音響總部</h3>
+        <p>台北市信義區極光路 88 號</p>
+        <p>電話：02-2720-8888</p>
+        <p>信箱：hello@aurora-audio.tw</p>
+        <div class="social-links">
+          <span>📘</span> <span>📷</span> <span>🐦</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 極光音響 AURORA AUDIO. 所有版權保留。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
